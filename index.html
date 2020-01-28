@@ -32,5 +32,74 @@
                 </h2>
             </div>
         </div>
+        <script>
+        
+        //Ejercicio 01//
+
+        count("Hello", "l");
+
+        count("Hello", "g");
+
+        function count(char,str){
+
+            console.log(char + "/" + str);
+
+            var vone = char;
+            var vtwo = str;
+            var result = 0;
+            var counter = 0;
+
+            while(result != -1){
+                var result = vone.indexOf(vtwo,result);
+
+                if(result != -1){
+                    result++
+                    counter++;
+                }
+            }
+
+            console.log(counter);
+
+            return counter;
+            
+        }
+
+        //Ejercicio 02//
+
+        filter([3, 12, 45, 7]);
+
+        filter([3, 5]);
+
+        function filter(getnumbers){
+
+            var result = getnumbers.filter(number => number > 10);
+
+            console.log(result);
+
+            return result;
+
+        }
+
+        //Ejercicio 03//
+
+        hypotenuse(3, 4);
+
+        hypotenuse(10, 13);
+
+        function hypotenuse(numberOne, numberTwo){
+
+            var NnumberOne = numberOne;
+
+            var NnumberTwo = numberTwo;
+
+            resultHypotenuse = Math.hypot(NnumberOne, NnumberTwo);
+
+            console.log(resultHypotenuse);
+
+            return resultHypotenuse;
+
+        }
+
+        </script>
     </body>
 </html>
