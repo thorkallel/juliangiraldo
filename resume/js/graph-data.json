@@ -1,74 +1,62 @@
 [
   {
-    "name": "Wordpress",
-    "value": 10
-  },
-  {
-    "name": "Photoshop",
-    "value": 40
-  },
-  {
-    "name": "Drupal",
-    "value": 90
-  },
-  {
-    "name": "PHP&MySQL",
-    "value": 40
-  },
-  {
-    "name": "JavaScript",
-    "value": 90
-  },
-  {
     "name": "HTML&CSS",
+    "value": 90
+  },
+  {
+    "name": "SASS",
+    "value": 90
+  },
+  {
+    "name": "STYLUS",
+    "value": 90
+  },
+  {
+    "name": "STYLED",
+    "value": 90
+  },
+  {
+    "name": "LESS",
+    "value": 90
+  },
+  {
+    "name": "HANDLEBARS",
+    "value": 80
+  },
+  {
+    "name": "JAVASCRIPT",
+    "value": 70
+  },
+  {
+    "name": "JQUERY",
+    "value": 60
+  },
+  {
+    "name": "DRUPAL",
     "value": 40
   },
   {
-    "name": "Wordpress",
+    "name": "WORDPRESS",
+    "value": 40
+  },
+  {
+    "name": "GIT",
+    "value": 60
+  },
+  {
+    "name": "ANGULAR",
     "value": 50
   },
   {
-    "name": "Photoshop",
-    "value": 40
+    "name": "REACTJS",
+    "value": 70
   },
   {
-    "name": "Drupal",
-    "value": 90
+    "name": "VUEJS",
+    "value": 40
   },
   {
     "name": "PHP&MySQL",
-    "value": 40
-  },
-  {
-    "name": "JavaScript",
-    "value": 90
-  },
-  {
-    "name": "HTML&CSS",
-    "value": 40
-  },
-  {
-    "name": "Wordpress",
-    "value": 50
-  },
-  {
-    "name": "Photoshop",
-    "value": 40
-  },
-  {
-    "name": "Drupal",
-    "value": 90
-  },
-  {
-    "name": "PHP&MySQL",
-    "value": 40
-  },
-  {
-    "name": "JavaScript",
-    "value": 90
-  },
-  {
-    "name": "HTML&CSS",
     "value": 40
   }
 ]
