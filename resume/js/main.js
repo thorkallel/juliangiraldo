@@ -668,13 +668,13 @@
 // Function to show/hide graph on button click.
     function showGraph() {
         if ($('.about-graph').length !== 0) {
-            var aboutGraph = new Graph('.about-graph', '/js/graph-data', {
+            var aboutGraph = new Graph('.about-graph', 'https://thorkallel.github.io/juliangiraldo/resume/js/graph-data', {
                 clickActiveElements: []
             });
 
             $('#aboutGraph').on('click', function() {
                 if (!$(this).hasClass('active')) {
-                    aboutGraph.update('/js/graph-data', {
+                    aboutGraph.update('https://thorkallel.github.io/juliangiraldo/resume/js/graph-data', {
                         removeElements: [],
                         clickActiveElements: []
                     });
@@ -699,14 +699,14 @@
             });
 
             $('.about-graph-buttons a.skills').on('click', function () {
-                aboutGraph.update('/js/graph-data', {
+                aboutGraph.update('https://thorkallel.github.io/juliangiraldo/resume/js/graph-data', {
                     removeElements: [],
                     clickActiveElements: []
                 });
             });
 
             $('.about-graph-buttons a.education').on('click', function () {
-                aboutGraph.update('/js/second-graph-data', {
+                aboutGraph.update('https://thorkallel.github.io/juliangiraldo/resume/js/second-graph-data', {
                     removeElements: [
                         'xAxis',
                         'pathArea',
